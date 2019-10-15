@@ -73,6 +73,7 @@
             <td>{{hero.name}}</td>
             <td>{{hero.hp}}</td>
             <td>
+
                 <a :href="'editHero?id=' + hero.id ">编辑</a>
                 <a href="#nowhere" @click="deleteHero(hero.id)">删除</a>
             </td>
